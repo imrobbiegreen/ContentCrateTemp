@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #000080;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .logo {
+                width: 100px;
+                height: 100px;
+                background-color: white;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+
+            @media (max-width: 600px) {
+                .logo {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="logo">
+                <!-- Your logo goes here. As an example, a placeholder white square is used. -->
+                <svg width="100" height="100">
+                    <rect width="100" height="100" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg>
+            </div>
+            <h1>Your Website Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+        </div>
+    </body>
+</html>
